@@ -6,8 +6,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.onehippo.cms7</groupId>
-    <artifactId>hippo-cms7-enterprise-project</artifactId>
+    <groupId>org.onehippo.cms7</groupId>
+    <artifactId>hippo-cms7-project</artifactId>
     <version>29.2</version>
   </parent>
 
@@ -43,14 +43,6 @@
       <name>Hippo maven 2 repository.</name>
       <url>http://maven.onehippo.com/maven2/</url>
     </repository>
-    <repository>
-      <id>hippo-maven2-enterprise</id>
-      <name>Hippo Maven 2 Enterprise</name>
-      <url>https://maven.onehippo.com/maven2-enterprise/</url>
-      <releases>
-        <updatePolicy>never</updatePolicy>
-      </releases>
-    </repository>
   </repositories>
 
   <scm>
@@ -79,12 +71,6 @@
       <groupId>org.onehippo.cms7</groupId>
       <artifactId>hippo-essentials-components-hst</artifactId>
       <version>${hippo.essentials-components.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.onehippo.cms7</groupId>
-      <artifactId>hippo-addon-generic-resource-entity-builder</artifactId>
-      <version>${hippo-addon-generic-resource-entity-builder.version}</version>
     </dependency>
 
   </dependencies>
